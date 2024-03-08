@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi,Im <span>Keshav</span><br>oza from Pune,India</h1>
+            </div>
+        </div>
+
+    </div>
+
+<!-- ----------About------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/user.png" alt="">
+
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat odit impedit, repellendus iusto quos eaque. Magnam nisi commodi id cum deserunt soluta necessitatibus atque in. Sapiente necessitatibus fugiat deleniti incidunt.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX </span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development </span><br>Web App Development</li>
+                            <li><span>App Development </span><br>Building Android/iOs apps</li>
+
+                        </ul>
+
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021-current </span><br>UI/UX Design training at ABC Institute.</li>
+                            <li><span>2018-2021 </span><br>Software developer at Startup LLC.</li>
+                            <li><span>2016-2017 </span><br>Intern at ekart eCommerce.</li>
+
+                        </ul>
+                        
+                    </div>
+
+                    
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2019</span><br>UI/UX Design training at ABC Institute.</li>
+                            <li><span>2016</span><br>Masters in Computer Applications form Fergusson College</li>
+                            <li><span>2014 </span><br>Bachelors in Computer Science from SP College</li>
+
+   
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+</body>
+
+</html>

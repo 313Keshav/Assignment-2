@@ -1,0 +1,154 @@
+*{
+    margin:0px;
+    font-family: 'Arial';
+    border:border-box;
+    background-color:azure;
+}
+
+.navbar{
+    height: 190px;
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+
+.logo{
+    background-image: url("FoodWebistelogo.jpg");
+    background-size:cover;
+    height: 145px;
+    width: 190px;
+}
+
+.nav-options ul{
+    display: flex;
+}
+
+
+.nav-options ul{
+    border-radius: 10px;
+    list-style-type: none;
+    color: black;
+    /* margin: 0;
+    padding: 0; */
+   
+    
+}
+
+
+
+
+
+.nav-options li{
+    float: left;
+    /* display: inline; */
+}
+
+.nav-options a{
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: orange;
+    
+    
+
+    
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+
+    
+}
+
+/* .nav-options p{
+    float:right;
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 14px 16px;
+} */
+
+/* Main Img*/
+
+
+.mainImg{
+    
+    /* background-image: url(Burgerwall.jpg); */
+    height: 200px;
+    
+    /* width: 100vw; */
+   /* background-color: red; */
+    /* align-items: center; */
+    /* background-size: cover; */
+    background-repeat:no-repeat ;
+}
+
+.homeImage{
+    width:90vw;
+
+}
+
+.select-search{
+    margin-top: 100px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 70rem; */
+    /* background-color: orangered; */
+    /* width:100px;
+    height: 50px; */
+    gap: 1em;
+    border: 1px solid black;
+    width:15em;
+    border-radius: 10px;
+    /* float:right; */
+   margin-left: 50px;
+   
+}
+
+.search-input{
+    width:30%;
+    border-radius:4em;
+    padding: 10px ;
+    margin-left:10px;
+    border:none;
+    outline:none;
+    width:15em;
+    /* background-color: orangered; */
+}
+
+.grabbers{
+    margin-top: 25px;
+    height: 10rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 50px;
+    display: flex;
+    margin-right: 95%;
+    justify-content:space-evenly;
+    background-color:none;
+    margin: 0;
+
+
+
+}
+
+.grabbers i{
+    
+    font-size: 3rem ;
+}
+
+

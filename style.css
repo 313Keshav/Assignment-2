@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial';
+    line-height: 1.6;
+    padding:20px;
+    background-color :#6da7a4;
+
+}
+
+.header{
+    text-align: centre;
+    margin-bottom: 20 px;
+    
+}
+
+.profile-img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+h1{
+    margin-top: 10px;
+
+
+}
+
+.bio,.projects{
+    margin-bottom: 20px;
+}
+
+a{
+    color:black;
+
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+        text-align: center;
+        margin-top: 20px;
+}
+
+
